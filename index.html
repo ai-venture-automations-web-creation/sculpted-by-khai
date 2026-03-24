@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sculpted by Khai — Belleville NJ's premier eyebrow bar. Precision brow sculpting, tinting, lamination, lash lifts, and more. Book your appointment today." />
+  <meta name="keywords" content="eyebrow bar Belleville NJ, brow sculpting, brow lamination, lash lift, brow tint, facial wax, beauty specialist NJ" />
+  <meta name="author" content="Sculpted by Khai" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sculpted by Khai | Eyebrow Bar — Belleville, NJ" />
+  <meta property="og:description" content="Precision brow sculpting and beauty services in Belleville, NJ. Every arch tells a story — let yours be perfect." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sculptedbykhai.com" />
+  <meta property="og:image" content="images/hero-1.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sculpted by Khai | Eyebrow Bar — Belleville, NJ" />
+  <meta name="twitter:description" content="Precision brow sculpting and beauty services in Belleville, NJ." />
+
+  <title>Sculpted by Khai | Eyebrow Bar — Belleville, NJ</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Sculpted by Khai",
+    "description": "Premier eyebrow bar offering precision brow sculpting, tinting, lamination, lash lifts, and facial waxing in Belleville, NJ.",
+    "url": "https://sculptedbykhai.com",
+    "telephone": "+18622557652",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "253 Washington Ave",
+      "addressLocality": "Belleville",
+      "addressRegion": "NJ",
+      "postalCode": "07109",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.7964155,
+      "longitude": -74.1506556
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "14",
+      "bestRating": "5"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Beauty Services",
+      "itemListElement": [
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Brow Sculpt"},"price":"30","priceCurrency":"USD"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Brow Tint"},"price":"25","priceCurrency":"USD"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Brow Lamination"},"price":"55","priceCurrency":"USD"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Lash Lift & Tint"},"price":"65","priceCurrency":"USD"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Facial Wax"},"price":"20","priceCurrency":"USD"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"The Sculpted Package"},"price":"80","priceCurrency":"USD"}
+      ]
+    },
+    "priceRange": "$$",
+    "image": "images/hero-1.jpg"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ==============================
+       HEADER / NAV
+  ============================== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Sculpted by Khai Home">
+        <span class="logo-mark">SK</span>
+        <span class="logo-text">Sculpted <em>by</em> Khai</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+18622557652" class="btn btn-primary btn-sm">Book Now</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <button class="mobile-close" id="mobile-close" aria-label="Close menu">&times;</button>
+      <nav class="mobile-nav">
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#gallery" class="mobile-link">Gallery</a>
+        <a href="#testimonials" class="mobile-link">Reviews</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <div class="mobile-cta-group">
+          <a href="tel:+18622557652" class="btn btn-primary">Book Now</a>
+          <a href="tel:+18622557652" class="btn btn-outline">Call Us</a>
+        </div>
+      </nav>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+  </header>
+
+
+  <!-- ==============================
+       HERO
+  ============================== -->
+  <section class="hero" id="home">
+    <div class="hero-media">
+      <img
+        src="images/hero-1.jpg"
+        alt="Close-up of beautifully sculpted eyebrows"
+        class="hero-bg-img"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge fade-in">
+        <span class="star-icon">&#9733;</span>
+        <span>5.0 Rating &nbsp;&bull;&nbsp; Belleville, NJ</span>
+      </div>
+      <h1 class="hero-title fade-up">
+        Every Arch<br />
+        <em>Tells a Story.</em>
+      </h1>
+      <p class="hero-sub fade-up delay-1">
+        Precision brow artistry and sculpted beauty — crafted to frame your face with confidence and intention.
+      </p>
+      <div class="hero-actions fade-up delay-2">
+        <a href="tel:+18622557652" class="btn btn-primary btn-lg">Book Appointment</a>
+        <a href="tel:+18622557652" class="btn btn-ghost btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Call Now
+        </a>
+      </div>
+      <div class="hero-scroll fade-in delay-3" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">Scroll</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       MARQUEE BAR
+  ============================== -->
+  <div class="marquee-bar" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Brow Sculpting</span><span class="dot">&bull;</span>
+      <span>Brow Tinting</span><span class="dot">&bull;</span>
+      <span>Brow Lamination</span><span class="dot">&bull;</span>
+      <span>Lash Lift &amp; Tint</span><span class="dot">&bull;</span>
+      <span>Facial Waxing</span><span class="dot">&bull;</span>
+      <span>Sculpted Perfection</span><span class="dot">&bull;</span>
+      <span>Belleville, NJ</span><span class="dot">&bull;</span>
+      <span>Brow Sculpting</span><span class="dot">&bull;</span>
+      <span>Brow Tinting</span><span class="dot">&bull;</span>
+      <span>Brow Lamination</span><span class="dot">&bull;</span>
+      <span>Lash Lift &amp; Tint</span><span class="dot">&bull;</span>
+      <span>Facial Waxing</span><span class="dot">&bull;</span>
+      <span>Sculpted Perfection</span><span class="dot">&bull;</span>
+      <span>Belleville, NJ</span><span class="dot">&bull;</span>
+    </div>
+  </div>
+
+
+  <!-- ==============================
+       SERVICES
+  ============================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Artistry, Refined</h2>
+        <p class="section-sub">Each service is a deliberate act of precision — tailored to your unique features and delivered with expert hands.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card animate-on-scroll" data-delay="0">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">Brow Sculpt</h3>
+              <span class="service-price">$30</span>
+            </div>
+            <p class="service-desc">The foundation of flawless. We shape and define your brows with surgical precision — removing excess hair to reveal the perfect natural arch.</p>
+            <span class="service-tag">Most Popular</span>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll" data-delay="100">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v3M12 20v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M1 12h3M20 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">Brow Tint</h3>
+              <span class="service-price">$25</span>
+            </div>
+            <p class="service-desc">Depth, definition, drama. Our tinting service fills sparse areas and enriches your natural brow color for bold, lasting results.</p>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll" data-delay="200">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">Brow Lamination</h3>
+              <span class="service-price">$55</span>
+            </div>
+            <p class="service-desc">The fluffy-brow treatment that took the beauty world by storm. We straighten, lift, and set your brow hairs for a fuller, brushed-up look.</p>
+            <span class="service-tag">Trending</span>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll" data-delay="0">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">Lash Lift &amp; Tint</h3>
+              <span class="service-price">$65</span>
+            </div>
+            <p class="service-desc">Curl, lift, and define your natural lashes. No extensions needed — just wide-awake eyes with dark, curled, striking lashes that last weeks.</p>
+          </div>
+        </article>
+
+        <article class="service-card animate-on-scroll" data-delay="100">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">Facial Wax</h3>
+              <span class="service-price">$20</span>
+            </div>
+            <p class="service-desc">Clean, smooth, radiant. We target upper lip, chin, and sideburns for a fresh, polished finish that completes your sculpted look.</p>
+          </div>
+        </article>
+
+        <article class="service-card service-card--featured animate-on-scroll" data-delay="200">
+          <div class="service-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="service-content">
+            <div class="service-top">
+              <h3 class="service-name">The Sculpted Package</h3>
+              <span class="service-price">$80</span>
+            </div>
+            <p class="service-desc">The full Khai experience. Brow Sculpt + Brow Tint + Lash Lift — the complete transformation for the client who deserves everything.</p>
+            <span class="service-tag service-tag--gold">Best Value</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="services-cta animate-on-scroll">
+        <a href="tel:+18622557652" class="btn btn-primary btn-lg">Reserve Your Session</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       ABOUT
+  ============================== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-image-col animate-on-scroll">
+        <div class="about-img-wrapper">
+          <img
+            src="images/about-1.jpg"
+            alt="Beauty specialist performing precision eyebrow shaping"
+            loading="lazy"
+            class="about-img"
+          />
+          <div class="about-img-accent"></div>
+          <div class="about-stat-card">
+            <span class="stat-num">5.0</span>
+            <span class="stat-label">Star Rating</span>
+            <div class="stat-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content-col animate-on-scroll">
+        <span class="section-tag">About Khai</span>
+        <h2 class="section-title">Sculpted with<br /><em>Intention</em></h2>
+        <p class="about-text">
+          At Sculpted by Khai, beauty is not accidental — it is architected. Every appointment is a one-on-one consultation between artist and canvas, where your natural features guide every decision.
+        </p>
+        <p class="about-text">
+          Khai brings a meticulous eye and steady hand to every service, drawing on deep expertise in brow architecture, skin tones, and facial symmetry. The result is not just a shaped brow — it is a transformed face.
+        </p>
+        <ul class="about-pillars">
+          <li>
+            <span class="pillar-icon">&#10003;</span>
+            <div>
+              <strong>Precision First</strong>
+              <p>Every line drawn is intentional. No guessing, no rushing — only craft.</p>
+            </div>
+          </li>
+          <li>
+            <span class="pillar-icon">&#10003;</span>
+            <div>
+              <strong>Custom to You</strong>
+              <p>Your face shape, hair texture, and lifestyle inform every service.</p>
+            </div>
+          </li>
+          <li>
+            <span class="pillar-icon">&#10003;</span>
+            <div>
+              <strong>Clean &amp; Comfortable</strong>
+              <p>A serene, hygienic studio where you can relax and trust the process.</p>
+            </div>
+          </li>
+        </ul>
+        <a href="tel:+18622557652" class="btn btn-primary">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       GALLERY
+  ============================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">The Art of the Arch</h2>
+        <p class="section-sub">Results that speak louder than words. Each brow is a signature — no two are the same.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item--large animate-on-scroll">
+          <img
+            src="images/hero-2.jpg"
+            alt="Beautifully shaped and tinted eyebrows close-up"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">Brow Sculpt + Tint</figcaption>
+        </figure>
+
+        <figure class="gallery-item animate-on-scroll" data-delay="100">
+          <img
+            src="images/gallery-2.jpg"
+            alt="Woman with defined, sculpted brows and confident gaze"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">Brow Lamination</figcaption>
+        </figure>
+
+        <figure class="gallery-item animate-on-scroll" data-delay="200">
+          <img
+            src="images/gallery-3.jpg"
+            alt="Close-up of long curled eyelashes with dark tint"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">Lash Lift &amp; Tint</figcaption>
+        </figure>
+
+        <figure class="gallery-item animate-on-scroll" data-delay="0">
+          <img
+            src="images/gallery-4.jpg"
+            alt="Woman receiving eyebrow waxing treatment"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">Brow Sculpt</figcaption>
+        </figure>
+
+        <figure class="gallery-item animate-on-scroll" data-delay="100">
+          <img
+            src="images/gallery-5.jpg"
+            alt="Beauty salon professional brow treatment"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">Facial Wax</figcaption>
+        </figure>
+
+        <figure class="gallery-item gallery-item--large animate-on-scroll" data-delay="200">
+          <img
+            src="images/gallery-6.jpg"
+            alt="Professional beauty treatment session in salon"
+            loading="lazy"
+          />
+          <figcaption class="gallery-caption">The Sculpted Package</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       TESTIMONIALS
+  ============================== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Client Love</span>
+        <h2 class="section-title">5 Stars, Every Time</h2>
+        <p class="section-sub">Don't take our word for it. Here is what our clients say after sitting in the chair.</p>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <article class="testimonial-card animate-on-scroll" data-delay="0">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <blockquote class="testimonial-quote">
+            "I have been to a lot of brow artists and Khai is in a completely different league. She mapped my brows perfectly to my face shape and the result was transformative. I walked out feeling like a completely different — and better — version of myself."
+          </blockquote>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">M</div>
+            <div>
+              <strong>Maria L.</strong>
+              <span>Brow Sculpt + Tint</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testimonial-card animate-on-scroll" data-delay="150">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <blockquote class="testimonial-quote">
+            "The Sculpted Package is worth every penny. Brows, tint, and lash lift in one session — I left looking polished without a drop of makeup on. Khai is meticulous, clean, and genuinely talented. My new go-to."
+          </blockquote>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">J</div>
+            <div>
+              <strong>Jasmine R.</strong>
+              <span>The Sculpted Package</span>
+            </div>
+          </footer>
+        </article>
+
+        <article class="testimonial-card animate-on-scroll" data-delay="300">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <blockquote class="testimonial-quote">
+            "The brow lamination gave me the fluffy, full look I have always wanted. Khai took the time to explain every step, made sure I was comfortable, and the results lasted weeks. Cannot recommend this place enough."
+          </blockquote>
+          <footer class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">A</div>
+            <div>
+              <strong>Alina T.</strong>
+              <span>Brow Lamination</span>
+            </div>
+          </footer>
+        </article>
+
+      </div>
+
+      <div class="rating-summary animate-on-scroll">
+        <div class="rating-number">5.0</div>
+        <div class="rating-details">
+          <div class="rating-stars-lg" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>Based on 14 reviews on Google</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       CONTACT / MAP
+  ============================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Find Us</span>
+        <h2 class="section-title">Come In. Be Sculpted.</h2>
+        <p class="section-sub">Located in Belleville, NJ — walk-ins welcome, appointments preferred.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info animate-on-scroll">
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <address>253 Washington Ave<br />Belleville, NJ 07109</address>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+18622557652" class="info-link">+1 862-255-7652</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Hours</h4>
+              <ul class="hours-list">
+                <li><span>Tuesday – Friday</span><span>9:00 AM – 7:00 PM</span></li>
+                <li><span>Saturday</span><span>9:00 AM – 6:00 PM</span></li>
+                <li><span>Sunday – Monday</span><span>Closed</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:+18622557652" class="btn btn-primary">Call to Book</a>
+            <a href="https://maps.google.com/?q=253+Washington+Ave,+Belleville,+NJ+07109" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Get Directions</a>
+          </div>
+        </div>
+
+        <div class="map-col animate-on-scroll">
+          <div class="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.2!2d-74.1506556!3d40.7964155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2533d72cf3a35%3A0x1f0b00e000000000!2s253+Washington+Ave%2C+Belleville%2C+NJ+07109!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Sculpted by Khai location map"
+              aria-label="Google Maps showing Sculpted by Khai at 253 Washington Ave, Belleville NJ"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo" aria-label="Sculpted by Khai">
+          <span class="logo-mark">SK</span>
+          <span class="logo-text">Sculpted <em>by</em> Khai</span>
+        </a>
+        <p class="footer-tagline">Precision. Artistry. Sculpted Perfection.</p>
+        <div class="footer-stars" aria-label="5-star rated">
+          &#9733;&#9733;&#9733;&#9733;&#9733;
+          <span>5.0 on Google</span>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#services">Brow Sculpt</a></li>
+          <li><a href="#services">Brow Tint</a></li>
+          <li><a href="#services">Brow Lamination</a></li>
+          <li><a href="#services">Lash Lift &amp; Tint</a></li>
+          <li><a href="#services">Facial Wax</a></li>
+          <li><a href="#services">The Sculpted Package</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h5>Navigate</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <address>
+          <p>253 Washington Ave<br />Belleville, NJ 07109</p>
+          <a href="tel:+18622557652">+1 862-255-7652</a>
+        </address>
+        <a href="tel:+18622557652" class="btn btn-primary btn-sm footer-cta">Book Now</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Sculpted by Khai. All rights reserved.</p>
+        <p class="footer-credit">Eyebrow Bar &mdash; Belleville, NJ</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
